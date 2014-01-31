@@ -1,0 +1,110 @@
+body {
+	background-color: lightgray;
+}
+
+@font-face {
+    font-family: "digital-7";
+    src: local(digital-7), url('digital_7/digital-7.ttf') format('truetype');
+}
+
+.main-container {
+	background-color: white;
+	width: 900px;
+	height: 600px;
+	margin: 100px auto;
+	border: 1px solid black;
+	position: relative;
+}
+
+.outer-shell {
+	background-color: #333333;
+	width: 800px;
+	height: 500px;
+	top: 50px;
+	left: 50px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 10px 10px 5px;
+}
+
+.inner-shell{
+	background-color: black;
+	width: 700px;
+	height: 400px;
+	top: 50px;
+	left: 50px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 5px 5px 5px;
+}
+
+.clock-screen {
+	background-color: #600000;
+	width: 500px;
+	height: 200px;
+	top: 50px;
+	left: 100px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 5px 5px 5px inset;
+}
+
+.left-labels {
+	position: absolute;
+	top: 80px;
+	left: 45px;
+	width: 50px;
+	color: white;
+	text-align: right;
+	padding: 0;
+}
+
+.left-labels p {
+	margin: 0;
+	padding: 0;
+}
+
+.bottom-labels {
+	position: absolute;
+	width: 100%;
+	top: 250px;
+	left: 50px;
+	color: white;
+	word-spacing: 15px;
+}
+
+.bottom-labels span {
+	margin-right: 50px;
+	margin-left: 60px;
+}
+
+.clock-text {
+	position: absolute;
+	font-family: "digital-7";
+	font-size: 200px;
+	color: red;
+	left: 85px;
+	top: 22px;
+	letter-spacing: 20px;
+}
+
+.dot {
+	color: red;
+	position: absolute;
+	font-size: 200px;
+	font-family: Times;
+	margin: 0;
+	padding: 0;
+}
+
+#pm_indicator {
+	top: -132px;
+}
+
+#auto_indicator {
+	top: -5px;	
+}
+
+.red {
+	color: #600000;
+}
